@@ -2,3 +2,11 @@ body{
     color: rgb(105, 105, 105);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+figcaption{
+    font-weight: bold;
+}
+
+footer{
+    font-weight: 100;
+}
