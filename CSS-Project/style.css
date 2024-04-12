@@ -5,10 +5,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
-}
-
-main{
-    background-color: rgb(224, 211, 195);
+    margin: 0;
+    background-color: rgb(237, 231, 225);
 }
 
 a,
