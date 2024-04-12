@@ -1,6 +1,14 @@
 body{
-    color: rgb(35, 63, 76);
+    color: rgb(58, 100, 119);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+main{
+    background-color: rgb(224, 211, 195);
 }
 
 a,
