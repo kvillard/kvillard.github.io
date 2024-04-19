@@ -1,0 +1,82 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: 1fr 4fr;
+    grid-gap: 20px;
+
+    box-sizing: border-box;
+    margin: auto;
+
+    max-width: 940px;
+}
+
+body{
+    color: rgb(58, 100, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color:  rgb(255, 251, 239);
+    
+}
+
+header,
+nav,
+main,
+footer{
+
+    background-color: rgb(216, 222, 227);
+    padding: 20px;
+
+}
+
+#a {
+    grid-column: 1 / -1; 
+
+    
+    
+}
+
+#b {
+    grid-column: 1 / 2; 
+    
+}
+
+#c {
+    grid-column: 2 / -1;
+    
+    
+}
+
+ 
+
+#d {
+    grid-column: 1 / -1;
+     
+}
+
+a,
+a:link{
+    color: rgb(97, 202, 97)
+}
+
+a:visited{
+    color: rgb(50, 169, 209)
+}
+a:hover{
+    color: rgb(255,255,0);
+}
+a:active{
+    color: rgb(0, 0, 0);
+}
+
+img{
+    border: 5px solid;
+    border-color: rgb(255,255,0)
+}
+
+figcaption{
+    font-weight: bold;
+}
+
+footer{
+    font-weight: 100;
+}
