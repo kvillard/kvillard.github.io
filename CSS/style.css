@@ -1,3 +1,11 @@
+body{
+    color: rgb(58, 100, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color:  rgb(255, 251, 239);
+    
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -10,13 +18,7 @@
     max-width: 940px;
 }
 
-body{
-    color: rgb(58, 100, 119);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    background-color:  rgb(255, 251, 239);
-    
-}
 
 header,
 nav,
